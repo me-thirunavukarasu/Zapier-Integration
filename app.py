@@ -3,7 +3,7 @@ from flask_cors import CORS
 import requests
 import os
 
-ZAPIER_URL = os.getenv('ZAPIER_URL', "https://hooks.zapier.com/hooks/catch/21200058/2zysb0x/")
+ZAPIER_URL = os.getenv('ZAPIER_URL', "https://hooks.zapier.com/hooks/catch/21201379/2zygo3y/")
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
